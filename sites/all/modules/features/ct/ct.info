@@ -1,0 +1,12 @@
+name = CT
+core = 7.x
+package = Features
+version = 7.x-5.7
+dependencies[] = features
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = node-news-body
+features[node][] = news
+features_exclude[field_base][body] = body
+project path = sites/all/modules/features

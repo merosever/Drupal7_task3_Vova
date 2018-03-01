@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the panels feature.
+ */
+
+include_once 'dr7_panels.features.inc';
